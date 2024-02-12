@@ -7,7 +7,7 @@ pkgrel=3
 pkgdesc='Yubikey plugin for age'
 arch=(x86_64 i686 arm armv6h armv7h aarch64)
 url="https://github.com/str4d/$pkgname"
-license=(Apache MIT)
+license=(Apache-2.0 MIT)
 depends=(gcc-libs
          glibc
          pcsclite)
