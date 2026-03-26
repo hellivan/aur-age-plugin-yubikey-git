@@ -3,13 +3,13 @@
 
 pkgname=age-plugin-yubikey
 pkgver=0.5.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Yubikey plugin for age'
 arch=(x86_64 i686 arm armv6h armv7h aarch64)
 url="https://github.com/str4d/$pkgname"
 license=(Apache-2.0 MIT)
-depends=(gcc-libs
-         glibc
+depends=(glibc
+         libgcc
          pcsclite)
 makedepends=(cargo)
 optdepends=('age: for use with age'
