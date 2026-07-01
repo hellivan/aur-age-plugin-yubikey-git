@@ -1,5 +1,5 @@
-[age-plugin-yubikey]
-source = "github"
-github = "str4d/age-plugin-yubikey"
-prefix = "v"
-use_max_tag = true
+[age-plugin-yubikey-git]
+source = "git"
+git = "https://github.com/str4d/age-plugin-yubikey.git"
+branch = "main"
+use_commit = true
